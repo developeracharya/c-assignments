@@ -2,6 +2,7 @@
 
 int main(){
     int num1, num2;
+    printf("Name: Aditya Acharya\nSection: \"A\"\n");
     printf("Enter any two number: ");
     scanf("%d %d", &num1, &num2);
     int bitAnd, bitOr, bitXor, bitNot1, bitNot2, bitLshift, bitRshift;
@@ -17,7 +18,7 @@ int main(){
     printf("Bitwise XOR: %d\n",bitXor);
     printf("Bitwise Not for 1st number: %d\n",bitNot1);
     printf("Bitwiset Not for 2nd number: %d\n", bitNot2);
-    printf("Bitwise Left Shift: %d\n", bitLshift);
-    printf("Bitwise Right Shift: %d\n", bitRshift);
+    printf("Bitwise Left Shift by 2: %d\n", bitLshift);
+    printf("Bitwise Right Shift by 2: %d\n", bitRshift);
     return 0;
 }
